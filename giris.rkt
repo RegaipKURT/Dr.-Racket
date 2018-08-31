@@ -38,7 +38,7 @@ z #! dik üçgenin hipotenüsünü hesaplama
  )
 
 #! cond fonksiyonu da tıpkı if gibidir. Koşullarla çalışır.
-(cond [(< z x) (print "z x'den büyüktür.")]
+(cond [(< z x) (print "x z'den büyüktür.")]
       [(< y z) (print "z y'den büyüktür.")]
       [(> x y) (print "x y'den büyüktür.")]
 )
